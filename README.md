@@ -27,8 +27,8 @@
 | Upcoming Features      | [Working on... ➤](#️-upcoming-features)                                                                 |
 | Installation and Usage | [Dependencies ➤](#dependencies) <br> [Install Guide ➤](#installing-dependencies) <br> [Usage ➤](#usage) |
 | Contributions          | [Contributing ➤](#-contribution)                                                                        |
-| Maintaining            | [Maintainers](#maintainers)                                                                             |
-| License                | [Project License](#-license)                                                                            |
+| Maintaining            | [Maintainers ➤](#maintainers)                                                                           |
+| License                | [Project License ➤](#-license)                                                                          |
 
 <hr style="height: 4px; background-image: linear-gradient(to right, #00FF00, #008000); border: 0;">
 
