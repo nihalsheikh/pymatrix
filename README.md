@@ -1,3 +1,7 @@
+<!-- Banner Image -->
+
+![banner-image](./assets/pymatrix%20banner.png)
+
 # PYMATRIX
 
 _**just a side project...**_
@@ -32,13 +36,13 @@ Current Version: 1.0
 On default settings:
 
 <p align="center">
-	<img src="./captures/screenshot.png" alt="pymatrix screenshot">
+	<img src="./assets/screenshot.png" alt="pymatrix screenshot">
 </p>
 
 #### 🔸 Screencast
 
 <p align="center">
-	<img src="./captures/screencast.gif" alt="pymatrix screenshot">
+	<img src="./assets/screencast.gif" alt="pymatrix screenshot">
 </p>
 
 <br>
@@ -133,6 +137,25 @@ Contributions are welcome! Feel free to:
 
 <br>
 
-### 📜 License
+## Maintainers
+
+- [x] **Nihal Sheikh** _`[Core]`_ :
+<!-- [nihalsheikh585@gmail.com](mailto:nihalsheikh585@gmail.com) -->
+
+<p>
+    <a href="mailto:nihalsheikh585@gmail.com">
+    	<img src="https://img.shields.io/badge/nihalsheikh585@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+    </a>
+    <a href="https://twitter.com/sshnihal">
+    	<img src="https://img.shields.io/static/v1?message=Twitter&logo=x&label=&color=1da1f2&logoColor=white&style=for-the-badge">
+    </a>
+    <a href="https://github.com/nihalsheikh">
+    	<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+    </a>
+  </p>
+
+<br>
+
+## 📜 License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
