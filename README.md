@@ -2,32 +2,45 @@
 
 ![banner-image](./assets/pymatrix%20banner.png)
 
-# PYMATRIX
+<h1 align="center"> PYMATRIX </h1>
 
-_**just a side project...**_
+<h3 align="center">A lightweight terminal animation of the classic Matrix code effect.</h3>
 
-Trying to recreate the Matrix-style digital rain effect for the terminal.
+<div align="center">
+	<p>
+	<img src="https://img.shields.io/github/v/release/nihalsheikh/pymatrix?style=plastic&logo=github&logoColor=white" alt="release">
+	<img src="https://img.shields.io/github/license/nihalsheikh/pymatrix?style=plastic&logo=gnu&logoColor=white&label=license&color=blue" alt="license">
+	<img src="https://img.shields.io/badge/python-3.6+-green.svg?style=plastic&logo=python&logoColor=white" alt="python">
+	<img src="https://img.shields.io/badge/platform-linux-orange.svg?style=plastic&logo=linux&logoColor=white" alt="platform">
+	<img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=plastic&logo=git&logoColor=white" alt="contributions">
+	</p>
+</div>
+
+<hr style="height: 4px; background-image: linear-gradient(to right, #00FF00, #008000); border: 0;">
 
 ## 🚀 Quick Navigation
 
 | Topics                 | Link                                                                                                    |
 | ---------------------- | ------------------------------------------------------------------------------------------------------- |
-| Project Overview       | [About ➤](#overview)                                                                                    |
+| Project Overview       | [About ➤](#-overview)                                                                                   |
 | Captures               | [Screenshot ➤](#-screenshot) <br> [ScreenCast ➤](#-screencast)                                          |
-| Upcoming Features      | [Working on... ➤](#upcoming-features)                                                                   |
+| Upcoming Features      | [Working on... ➤](#️-upcoming-features)                                                                 |
 | Installation and Usage | [Dependencies ➤](#dependencies) <br> [Install Guide ➤](#installing-dependencies) <br> [Usage ➤](#usage) |
-| Contributions          | [Contributing ➤](#contribution)                                                                         |
-| License                | [Project License](#license)                                                                             |
+| Contributions          | [Contributing ➤](#-contribution)                                                                        |
+| Maintaining            | [Maintainers](#maintainers)                                                                             |
+| License                | [Project License](#-license)                                                                            |
 
-<br>
+<hr style="height: 4px; background-image: linear-gradient(to right, #00FF00, #008000); border: 0;">
 
 ### 📖 OVERVIEW
 
-Matrix Rain is a lightweight terminal application that recreates the iconic "digital rain" effect from The Matrix movie. Written in pure Python using only standard library modules, it provides an authentic Matrix experience with cascading green characters, random speeds, and flickering effects.
+_**just a side project...**_
+
+Pymatrix is a lightweight terminal application that recreates the iconic "digital rain" effect from The Matrix movie. Written in pure Python using only standard library modules, it provides an authentic Matrix experience with cascading green characters, random speeds, and flickering effects.
 
 Current Version: 1.0
 
-<br>
+<hr style="height: 4px; background-image: linear-gradient(to right, #00FF00, #008000); border: 0;">
 
 ### 📸 Captures
 
@@ -35,17 +48,17 @@ Current Version: 1.0
 
 On default settings:
 
-<p align="center">
+<div align="center">
 	<img src="./assets/screenshot.png" alt="pymatrix screenshot">
-</p>
+</div>
 
 #### 🔸 Screencast
 
-<p align="center">
+<div align="center">
 	<img src="./assets/screencast.gif" alt="pymatrix screenshot">
-</p>
+</div>
 
-<br>
+<hr style="height: 4px; background-image: linear-gradient(to right, #00FF00, #008000); border: 0;">
 
 ### ⚙️ Upcoming Features
 
@@ -58,7 +71,7 @@ On default settings:
 - [ ] Configuration file support
 - [ ] Multiple visual modes (classic, random, wave)
 
-<br>
+<hr style="height: 4px; background-image: linear-gradient(to right, #00FF00, #008000); border: 0;">
 
 ### 🛠️ Installation and Usage
 
@@ -67,8 +80,8 @@ On default settings:
 This project uses only Python's standard library, making it extremely lightweight with minimal dependencies.
 Required
 
-Python3+ - The core runtime
-python3-curses - Terminal manipulation library (usually included with Python)
+**`Python 3.6+`** - The core runtime
+**`python3-curses`** - Terminal manipulation library (usually included with Python)
 
 #### Installing Dependencies
 
@@ -124,7 +137,7 @@ chmod +x pymatrix.py
 `q` - Quit the program gracefully
 `Ctrl+C` - Force exit
 
-<br>
+<hr style="height: 4px; background-image: linear-gradient(to right, #00FF00, #008000); border: 0;">
 
 ### 🙌 Contribution
 
@@ -135,14 +148,14 @@ Contributions are welcome! Feel free to:
 - 📝 Submit pull requests
 - 📝 Improve documentation
 
-<br>
+<hr style="height: 4px; background-image: linear-gradient(to right, #00FF00, #008000); border: 0;">
 
 ## Maintainers
 
 - [x] **Nihal Sheikh** _`[Core]`_ :
 <!-- [nihalsheikh585@gmail.com](mailto:nihalsheikh585@gmail.com) -->
 
-<p>
+<div>
     <a href="mailto:nihalsheikh585@gmail.com">
     	<img src="https://img.shields.io/badge/nihalsheikh585@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
     </a>
@@ -152,9 +165,9 @@ Contributions are welcome! Feel free to:
     <a href="https://github.com/nihalsheikh">
     	<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
     </a>
-  </p>
+</div>
 
-<br>
+<hr style="height: 4px; background-image: linear-gradient(to right, #00FF00, #008000); border: 0;">
 
 ## 📜 License
 
