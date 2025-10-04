@@ -137,8 +137,8 @@ chmod +x pymatrix.py
 
 #### Controls
 
-`q` - Quit the program gracefully
-`Ctrl+C` - Force exit
+- **`q`** - Quit the program gracefully
+- **`Ctrl+C`** - Force exit
 
 <hr style="height: 4px; background-image: linear-gradient(to right, #00FF00, #008000); border: 0;">
 
