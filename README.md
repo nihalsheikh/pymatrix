@@ -135,4 +135,4 @@ Contributions are welcome! Feel free to:
 
 ### 📜 License
 
-_**Adding license soon...**_
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
