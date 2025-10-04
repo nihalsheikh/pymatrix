@@ -38,7 +38,10 @@ _**just a side project...**_
 
 Pymatrix is a lightweight terminal application that recreates the iconic "digital rain" effect from The Matrix movie. Written in pure Python using only standard library modules, it provides an authentic Matrix experience with cascading green characters, random speeds, and flickering effects.
 
-Current Version: 1.0
+<h4> Latest Stable Version:
+<p>
+<img src="https://img.shields.io/github/v/release/nihalsheikh/pymatrix?style=for-the-badge&logo=github&logoColor=white" alt="release">
+</p>
 
 <hr style="height: 4px; background-image: linear-gradient(to right, #00FF00, #008000); border: 0;">
 
