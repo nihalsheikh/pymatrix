@@ -83,8 +83,8 @@ On default settings:
 This project uses only Python's standard library, making it extremely lightweight with minimal dependencies.
 Required
 
-**`Python 3.6+`** - The core runtime
-**`python3-curses`** - Terminal manipulation library (usually included with Python)
+- **`Python 3.6+`** - The core runtime
+- **`python3-curses`** - Terminal manipulation library (usually included with Python)
 
 #### Installing Dependencies
 
