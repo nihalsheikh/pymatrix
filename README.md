@@ -51,9 +51,10 @@ Pymatrix is a lightweight terminal application that recreates the iconic "digita
 
 On default settings:
 
-<div align="center">
-	<img src="./assets/screenshot.png" alt="pymatrix screenshot">
-</div>
+<p align="middle" float="left">
+	<img src="./assets/screenshot_gohufont.png" alt="screenshot_gohufont" width="45%" />
+	<img src="./assets/screenshot.png" alt="screenshot" width="46%" />
+</p>
 
 #### 🔸 Screencast
 
