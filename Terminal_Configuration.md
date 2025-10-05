@@ -14,7 +14,7 @@
 | Font Installation | [Font-config ➤](#install-the-font)                                |
 | Terminal Config   | [Kitty-config ➤](#configure-kitty-terminal)                       |
 | My Config         | [OP Config ➤](#my-current-terminal-configuratiosn-are-as-follows) |
-| Captures          | []()                                                              |
+| Captures          | [Images ➤](#captures)                                             |
 
 <hr style="height: 4px; background-image: linear-gradient(to right, #00FF00, #008000); border: 0;">
 
