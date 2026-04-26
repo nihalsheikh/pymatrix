@@ -1,0 +1,40 @@
+Metadata-Version: 2.4
+Name: pymatrix
+Version: 1.0.0
+Summary: Matrix-style terminal rain animation
+Home-page: https://github.com/nihalsheikh/pymatrix
+Author: Nihal Sheikh
+Author-email: Nihal Sheikh <nihalsheikh@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/nihalsheikh/pymatrix
+Project-URL: Documentation, https://github.com/nihalsheikh/pymatrix/wiki
+Project-URL: Repository, https://github.com/nihalsheikh/pymatrix.git
+Project-URL: Issues, https://github.com/nihalsheikh/pymatrix/issues
+Keywords: terminal,animation,matrix,curses,cli
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Terminals
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# PyMatrix
+
+Matrix-style terminal rain animation
