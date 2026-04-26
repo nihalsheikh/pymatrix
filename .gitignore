@@ -8,3 +8,7 @@ node_modules
 # Used to make badges, not for application
 package.json
 package-lock.json
+
+.claude
+.venv
+venv

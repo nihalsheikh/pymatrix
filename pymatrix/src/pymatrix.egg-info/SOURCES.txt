@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/pymatrix/pymatrix.py
+src/pymatrix.egg-info/PKG-INFO
+src/pymatrix.egg-info/SOURCES.txt
+src/pymatrix.egg-info/dependency_links.txt
+src/pymatrix.egg-info/entry_points.txt
+src/pymatrix.egg-info/top_level.txt
