@@ -42,6 +42,7 @@ Issues = "https://github.com/nihalsheikh/pymatrix/issues"
 
 [project.scripts]
 pymatrix = "pymatrix.pymatrix:main"
+pym = "pymatrix.pymatrix:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

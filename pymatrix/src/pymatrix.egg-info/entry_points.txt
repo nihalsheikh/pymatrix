@@ -1,2 +1,3 @@
 [console_scripts]
+pym = pymatrix.pymatrix:main
 pymatrix = pymatrix.pymatrix:main

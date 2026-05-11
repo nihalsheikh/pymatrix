@@ -39,6 +39,7 @@ setup(
     entry_points={
         "console_scripts": [
             "pymatrix=pymatrix.pymatrix:main",
+            "pym=pymatrix.pymatrix:main",
         ],
     },
 )

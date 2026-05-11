@@ -1,158 +1,94 @@
+import MatrixRain from '@/components/MatrixRain';
+import Navbar from '@/components/Navbar';
+import { History, Target, Map, Star, ArrowRight } from 'lucide-react';
+
 export default function About() {
   return (
     <>
-      <canvas id="rain"></canvas>
-      <div id="scanlines"></div>
-      <div id="vignette"></div>
-      <div id="toast">// COPIED TO CLIPBOARD</div>
+      <MatrixRain opacity={0.2} />
       <div id="site">
-        <nav>
-          <div className="nav-logo">
-            PY<span className="nav-logo-span">MATRIX</span>
-          </div>
-          <div className="nav-links">
-            <button className="nav-btn">HOME</button>
-            <button className="nav-btn active">ABOUT</button>
-            <button className="nav-btn">DOCS</button>
-          </div>
-          <div className="nav-right">
-            <div className="nav-version">v1.0.0</div>
-            <a href="https://github.com/nihalsheikh/pymatrix" className="nav-gh" target="_blank" rel="noopener noreferrer">
-              <span>GH</span>
-            </a>
-          </div>
-        </nav>
+        <Navbar />
         
         <div className="page active" id="about">
           <section className="about-wrap">
-            <h1 className="about-hero-line">PYMATRIX</h1>
+            <h1 className="about-hero-line"><History className="inline-block mr-4 mb-2" size={48} /> THE PROJECT</h1>
             <p className="about-intro">
-              PyMatrix is a <strong>Matrix-style terminal rain animation</strong> that brings the iconic falling code effect from 
-              <em>The Matrix</em> to your command line. Built with Python and the curses library, it offers a customizable, 
-              high-performance experience across Linux, macOS, and Windows.
+              PyMatrix is an advanced <strong>digital rain engine</strong> that brings the cinematic code-flow effect to high-performance terminals. 
+              Built with pure Python and optimized for 256-color TTY environments.
             </p>
             
             <div className="about-grid">
               <div className="about-cell">
-                <div className="about-cell-label">Version</div>
-                <div className="about-cell-val">1.0.0</div>
+                <div className="about-cell-label">ENGINE</div>
+                <div className="about-cell-val">TMatrix-Inspired</div>
+                <div className="about-cell-sub">5-zone gradient logic</div>
+              </div>
+              <div className="about-cell">
+                <div className="about-cell-label">LICENSE</div>
+                <div className="about-cell-val">MIT</div>
+                <div className="about-cell-sub">Open source & free</div>
+              </div>
+              <div className="about-cell">
+                <div className="about-cell-label">COLOR</div>
+                <div className="about-cell-val">256-Bit ANSI</div>
+                <div className="about-cell-sub">Theme-independent rendering</div>
+              </div>
+              <div className="about-cell">
+                <div className="about-cell-label">VERSION</div>
+                <div className="about-cell-val">v1.3.0</div>
                 <div className="about-cell-sub">Stable release</div>
               </div>
-              <div className="about-cell">
-                <div className="about-cell-label">License</div>
-                <div className="about-cell-val">MIT</div>
-                <div className="about-cell-sub">Open source</div>
-              </div>
-              <div className="about-cell">
-                <div className="about-cell-label">Language</div>
-                <div className="about-cell-val">Python 3.6+</div>
-                <div className="about-cell-sub">With curses</div>
-              </div>
-              <div className="about-cell">
-                <div className="about-cell-label">Platform</div>
-                <div className="about-cell-val">Cross-platform</div>
-                <div className="about-cell-sub">Linux, macOS, Windows</div>
-              </div>
             </div>
-            
-            <div className="about-comparison">
-              <h2 className="comp-title">PyMatrix vs Alternatives</h2>
-              <div className="comp-row">
-                <div className="comp-name">PyMatrix</div>
-                <div className="comp-lang">Python</div>
-                <div className="comp-desc">
-                  Pure Python implementation with customizable colors, speed, and trail length. 
-                  No external dependencies beyond the standard library.
-                </div>
-                <div className="comp-badge badge-ours">Native</div>
-              </div>
-              <div className="comp-row">
-                <div className="comp-name">cmatrix</div>
-                <div className="comp-lang">C</div>
-                <div className="comp-desc">
-                  The classic Matrix rain animation in C. Limited customization options.
-                </div>
-                <div className="comp-badge">Terminal</div>
-              </div>
-              <div className="comp-row">
-                <div className="comp-name">tmatrix</div>
-                <div className="comp-lang">Go</div>
-                <div className="comp-desc">
-                  Go-based Matrix animation with some customization features.
-                </div>
-                <div className="comp-badge">Terminal</div>
-              </div>
-              <div className="comp-row">
-                <div className="comp-name">web matrix</div>
-                <div className="comp-lang">JavaScript</div>
-                <div className="comp-desc">
-                  Browser-based implementations, not for terminal use.
-                </div>
-                <div className="comp-badge">Web</div>
-              </div>
+
+            <div className="doc-section">
+              <h2 className="doc-h2"><Target size={24} className="inline mr-3" /> Core Vision</h2>
+              <p className="doc-p">
+                Most Matrix clones suffer from theme-interference where terminal colors bleed into the animation. 
+                PyMatrix solves this by using direct color mapping and a physics-based trail engine. 
+                Our goal is to provide the most authentic, flicker-heavy, and high-contrast digital rain available for CLI.
+              </p>
             </div>
-            
-            <div className="about-author">
-              <div className="author-avatar">NS</div>
-              <div className="author-info">
-                <h2 className="author-name">Nihal Sheikh</h2>
-                <p className="author-handle">@sshNihal</p>
-                <p className="author-bio">
-                  Open source enthusiast and developer passionate about creating 
-                  beautiful terminal experiences. PyMatrix is a labor of love, 
-                  inspired by the iconic visual effects of The Matrix.
-                </p>
-                <div className="author-links">
-                  <a href="https://github.com/nihalsheikh" className="author-link" target="_blank" rel="noopener noreferrer">GitHub</a>
-                  <a href="https://twitter.com/sshNihal" className="author-link" target="_blank" rel="noopener noreferrer">Twitter/X</a>
-                  <a href="https://linkedin.com/in/nihalsheikh" className="author-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                </div>
-              </div>
-            </div>
-            
+
             <div className="about-roadmap">
-              <h2 className="roadmap-title">Roadmap</h2>
+              <h2 className="roadmap-title"><Map size={24} className="inline mr-3" /> Technical Roadmap</h2>
               <div className="roadmap-item">
                 <div className="roadmap-check done">✓</div>
                 <div className="roadmap-text">
-                  <strong>Core animation engine</strong><br/>
-                  <span className="roadmap-tag">v1.0</span> Completed
-                </div>
-              </div>
-              <div className="roadmap-item">
-                <div className="roadmap-check done">✓</div>
-                <div className="roadmap-text">
-                  <strong>CLI with argument parsing</strong><br/>
-                  <span className="roadmap-tag">v1.0</span> Completed
-                </div>
-              </div>
-              <div className="roadmap-item">
-                <div className="roadmap-check done">✓</div>
-                <div className="roadmap-text">
-                  <strong>Cross-platform support</strong><br/>
-                  <span className="roadmap-tag">v1.0</span> Linux, macOS, Windows
+                  <strong>v1.3 — Cinematic Update</strong>
+                  256-color bypass, 5-zone comet tails, and character spacing.
                 </div>
               </div>
               <div className="roadmap-item">
                 <div className="roadmap-check wip">~</div>
                 <div className="roadmap-text">
-                  <strong>Rainbow color mode</strong><br/>
-                  <span className="roadmap-tag">v1.1</span> In progress
+                  <strong>v1.4 — Directional Rain</strong>
+                  Sideways/Horizontal rain modes (Left-to-Right, Right-to-Left).
                 </div>
               </div>
               <div className="roadmap-item">
                 <div className="roadmap-check">○</div>
                 <div className="roadmap-text">
-                  <strong>Custom character sets</strong><br/>
-                  <span className="roadmap-tag">v1.2</span> Planned
+                  <strong>v1.5 — Overlay Layer</strong>
+                  Glowing/Blinking central text and custom notification overlays.
                 </div>
               </div>
               <div className="roadmap-item">
                 <div className="roadmap-check">○</div>
                 <div className="roadmap-text">
-                  <strong>Web portal for sharing configs</strong><br/>
-                  <span className="roadmap-tag">v2.0</span> Planned
+                  <strong>v2.0 — Custom Streams</strong>
+                  Rain composed of user-defined strings and ASCII art segments.
                 </div>
+              </div>
+            </div>
+
+            <div className="about-author">
+              <div className="author-avatar"><Star size={32} /></div>
+              <div className="author-info">
+                <h2 className="author-name">Nihal Sheikh</h2>
+                <p className="author-handle">@sshNihal</p>
+                <p className="author-bio">
+                  Building high-fidelity terminal tools and cinematic CLI experiences.
+                </p>
               </div>
             </div>
           </section>
