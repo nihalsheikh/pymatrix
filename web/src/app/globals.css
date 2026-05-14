@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Matrix';
+  src: url('/fonts/matrix.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Miltown';
+  src: url('/fonts/Miltown-K17.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg: oklch(12% 0.01 160);
+  --surface: oklch(16% 0.02 160);
+  --fg: oklch(98% 0.01 160);
+  --muted: oklch(55% 0.05 160);
+  --border: oklch(28% 0.08 160);
+  --accent: oklch(62% 0.22 145);
+  --accent-glow: oklch(62% 0.22 145 / 0.8);
+  --accent-soft: oklch(62% 0.22 145 / 0.15);
+  
+  --background: var(--bg);
+  --foreground: var(--fg);
+}
+
+@theme {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-glow: var(--accent-glow);
+  --color-accent-soft: var(--accent-soft);
+
+  --font-display: "Matrix", "IBM Plex Serif", serif;
+  --font-miltown: "Miltown", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --shadow-matrix: 0 0 20px var(--accent-glow);
+  --shadow-matrix-heavy: 0 0 40px var(--accent-glow);
+}
+
+* {
+  user-select: none;
+}
+
+img {
+  pointer-events: none;
+}
+
+.glow-text {
+  color: var(--accent);
+  text-shadow: 0 0 15px var(--accent-glow), 0 0 5px #fff;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Helper for dimmed rain buttons */
+.rain-btn-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(12, 14, 12, 0.6);
+  z-index: 5;
+}

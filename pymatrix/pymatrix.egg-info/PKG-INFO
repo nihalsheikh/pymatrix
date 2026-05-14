@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: pymatrix
+Version: 0.1.0
+Summary: A fun and creative Matrix digital rain animation for your terminal.
+Author-email: Nihal Sheikh <nihalsheikh585@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/nihalsheikh/pymatrix
+Project-URL: Bug Tracker, https://github.com/nihalsheikh/pymatrix/issues
+Project-URL: Official Website, https://pymatrix.vercel.app
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Topic :: Games/Entertainment
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: windows-curses; platform_system == "Windows"
+
+# PyMatrix - Personal Digital Rain Animation
+
+A fun and creative digital rain animation for your terminal.
+
+## 📦 Installation
+```bash
+pip install pymatrix
+```
+
+## 🎮 Basic Usage
+```bash
+pymatrix
+```
+
+For full documentation, visit [pymatrix.vercel.app](https://pymatrix.vercel.app).

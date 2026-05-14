@@ -9,8 +9,15 @@ node_modules
 package.json
 package-lock.json
 
-.claude
 .venv
 venv
 
 .gitignore
+.design
+
+.npm*
+.npm-cache
+.tmp
+
+dist
+build
