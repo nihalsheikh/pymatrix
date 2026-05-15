@@ -55,3 +55,19 @@ export interface SocialLink {
   icon: IconType | LucideIcon;
   url: string;
 }
+
+export interface ElectricBorderProps {
+  children?: React.ReactNode;
+  color?: string;
+  speed?: number;
+  chaos?: number;
+  borderRadius?: number;
+  className?: string;
+  style?: React.CSSProperties;
+}
+
+export interface Feature {
+  id: string;
+  title: string;
+  desc: string;
+}

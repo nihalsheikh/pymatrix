@@ -7,7 +7,7 @@ const ConnectPane = () => {
     <div className="p-12 lg:p-20 flex flex-col justify-center bg-surface">
       <div className="font-mono text-xs text-accent uppercase tracking-[0.25em] mb-10 opacity-80 font-bold">Connect // Nihal Sheikh</div>
       <p className="text-xl text-fg/80 leading-relaxed mb-12 font-medium">
-        I build things for the terminal and the web. No corporate glazing here—just side projects and experiments. Find me in the digital stream:
+        I build things for the terminal and the web. No corporate glazing here—just side projects and experiments. Meet me in the digital stream:
       </p>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

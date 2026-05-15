@@ -26,9 +26,9 @@ const LiveDemo = () => {
                 }`}
               >
                 {/* Brightened animation for demo buttons */}
-                <div className="absolute inset-0 z-0 opacity-30 group-hover:opacity-50 transition-opacity">
-                  <MatrixRain fontSize={10} speed={0.3} opacity={0.3} />
-                  <div className="absolute inset-0 bg-bg/30" />
+                <div className="absolute inset-0 z-0 opacity-40 group-hover:opacity-70 transition-opacity">
+                  <MatrixRain fontSize={10} speed={0.4} opacity={0.4} />
+                  <div className="absolute inset-0 bg-bg/20" />
                 </div>
                 <span className="relative z-10 font-bold">{preset.label}</span>
               </button>

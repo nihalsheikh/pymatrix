@@ -18,23 +18,23 @@ const InfoPane = () => {
 
         <div className="grid grid-cols-3 gap-12 mt-16 pt-16 border-t border-border">
           <div>
-            <div className="text-4xl text-accent mb-2 brightness-150 flex items-baseline">
+            <div className="text-4xl text-white font-bold mb-2 flex items-baseline drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">
               <span className="font-miltown">3.6</span>
               <span className="font-mono text-2xl ml-0.5">+</span>
             </div>
-            <div className="font-mono text-[11px] text-fg font-black uppercase tracking-wider">Python Req</div>
+            <div className="font-mono text-[11px] text-muted font-bold uppercase tracking-wider">Python Req</div>
           </div>
           <div>
-            <div className="text-4xl text-accent mb-2 brightness-150">
+            <div className="text-4xl text-white font-bold mb-2 drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">
               <span className="font-miltown">0</span>
             </div>
-            <div className="font-mono text-[11px] text-fg font-black uppercase tracking-wider">External Deps</div>
+            <div className="font-mono text-[11px] text-muted font-bold uppercase tracking-wider">External Deps</div>
           </div>
           <div>
-            <div className="text-4xl text-accent mb-2 brightness-150">
+            <div className="text-4xl text-white font-bold mb-2 drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">
               <span className="font-miltown leading-none uppercase" style={{ fontSize: '0.8em' }}>MIT</span>
             </div>
-            <div className="font-mono text-[11px] text-fg font-black uppercase tracking-wider">Open License</div>
+            <div className="font-mono text-[11px] text-muted font-bold uppercase tracking-wider">Open License</div>
           </div>
         </div>
       </div>

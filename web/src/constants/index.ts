@@ -1,6 +1,12 @@
-import { DemoPreset, CLIFlag, PaletteColor, ShowcaseVariation, SocialLink } from "../types";
+import { DemoPreset, CLIFlag, PaletteColor, ShowcaseVariation, SocialLink, Feature } from "../types";
 import { FaGithub, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import { SiPeerlist } from "react-icons/si";
+
+export const FEATURES: Feature[] = [
+  { id: "01", title: "Pure Python", desc: "Built with the standard library only. No heavy dependencies, no bloat. Just clean code that runs wherever Python 3.6+ lives." },
+  { id: "02", title: "Infinite Ricing", desc: "Obsessively customizable. Tweak speed, density, and colors until it perfectly matches your terminal setup." },
+  { id: "03", title: "Pure Fun", desc: "No complex use cases, no user data tracking. Just a cinematic digital rain for those who want their screen to look alive." }
+];
 
 export const DEMO_PRESETS: DemoPreset[] = [
   { label: "pymatrix --color GREEN", cmd: "pymatrix --color GREEN", options: { color: 'oklch(62% 0.22 145)', speed: 1, density: 1 } },
