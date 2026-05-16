@@ -9,15 +9,7 @@ export const metadata: Metadata = {
   title: "Rmatrix — Terminal Matrix Rain",
   description: "Experience the high-fidelity, cinematic Matrix digital rain animation, meticulously recreated in pure Python. Hyper-customizable, dependency-free, and cross-platform terminal art.",
   metadataBase: new URL("https://rmatrix.netlify.app"),
-  icons: {
-    icon: [
-      { url: "/dark-logo.png", sizes: "32x32" },
-      { url: "/dark-logo.png", media: "(prefers-color-scheme: dark)" },
-      { url: "/light-logo.png", media: "(prefers-color-scheme: light)" },
-    ],
-    shortcut: "/dark-logo.png",
-    apple: "/dark-logo.png",
-  },
+  // Standard icons are now handled automatically by icon.png and apple-icon.png in the app directory
   openGraph: {
     title: "Rmatrix — High-Fidelity Terminal Digital Rain",
     description: "Experience the cinematic Matrix digital rain animation, recreated in pure Python. Fully customizable with 17+ color palettes, 3D parallax, and zero dependencies.",
