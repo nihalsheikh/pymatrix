@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 from .colors import PALETTES_256
 
-VERSION = "0.1.3"
+VERSION = "0.1.4"
 CONFIG_DIR = Path.home() / ".config" / "rmatrix"
 CONFIG_FILE = CONFIG_DIR / "config.json"
 

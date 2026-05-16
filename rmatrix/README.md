@@ -1,73 +1,86 @@
 # Rmatrix - Personal Digital Rain Animation
 
-[![PyPI version](https://img.shields.io/pypi/v/rmatrix.svg)](https://pypi.org/project/rmatrix/)
+[![PyPI version](https://img.shields.io/pypi/v/rmatrix.svg?color=blue)](https://pypi.org/project/rmatrix/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2497bc2b-5bf8-4bbc-8083-baa911b5c553/deploy-status)](https://app.netlify.app/projects/rmatrix/deploys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![Rmatrix Banner](https://raw.githubusercontent.com/nihalsheikh/rmatrix/main/assets/banner.png)
 
-Rmatrix is a fun and creative digital rain animation for your terminal, inspired by the iconic visuals of The Matrix. It features 3D parallax depth, hand-calibrated 256-color palettes, and a customizable bookmark overlay. Built for the casual aesthetic, it's dependency-free and runs on anything with Python 3.6+.
+Rmatrix is a high-fidelity digital rain animation for your terminal, inspired by the iconic visuals of *The Matrix*. Featuring 3D parallax depth, hand-calibrated 256-color palettes, and zero dependencies.
 
 ## 🎬 Live Demo
 
-Check out the interactive high-fidelity website at [rmatrix.vercel.app](https://rmatrix.vercel.app).
-
-## ✨ Features
-
-- **Pure Python:** No heavy dependencies, no bloat.
-- **Cinematic Visuals:** High-fidelity animation optimized for the terminal.
-- **Extreme Customization:** Over 20+ flags to tune speed, density, colors, and mutation rates.
-- **Color Palettes:** 10+ hand-crafted color schemes (Classic Green, Blood Red, Ocean Blue, Sunset, etc.).
-- **Zero Data:** Respects your privacy. No tracking, no telemetry.
+Experience the high-fidelity web version at [rmatrix.netlify.app](https://rmatrix.netlify.app).
 
 ## 🚀 Installation
-
-To install Rmatrix officially from PyPI:
 
 ```bash
 pip install rmatrix
 ```
 
-Or run it directly without installing:
-
-```bash
-python3 -m rmatrix.main
-```
-
 ## 🎮 Usage
 
 Simply run:
-
 ```bash
 rmatrix
 ```
 
 Or use the shorter alias:
-
 ```bash
 rmx
 ```
 
-### Pro Examples:
+### Command Line Flags
 
-**High-speed Gold rain with long trails:**
-```bash
-rmatrix -c gold -ch digits -l long -df
-```
+| Short | Long | Description | Default |
+| :--- | :--- | :--- | :--- |
+| `-c` | `--color` | Rain color palette (see table below) | `green` |
+| `-s` | `--speed` | Animation speed multiplier (0.1 - 5.0) | `1.0` |
+| `-d` | `--density` | Stream density (`light`, `medium`, `heavy`) | `medium` |
+| `-ch` | `--chars` | Character set (`matrix`, `katakana`, `ascii`, `digits`, `symbols`, `binary`) | `matrix` |
+| `-l` | `--length` | Trail length (`short`, `medium`, `long`) | `medium` |
+| `-f` | `--fps` | Target frames per second (5 - 60) | `30` |
+| `-b` | `--bookmark` | Central glowing text overlay | `""` |
+| `-mr` | `--mutation-rate`| Frequency of glyph scrambling (0.0 - 1.0) | `0.05` |
+| `-df` | `--default` | Save current flags as factory defaults | `false` |
+| `--reset` | | Reset all settings to factory defaults | `false` |
+| `--no-256` | | Force 8-color mode (legacy terminals) | `false` |
+| `--no-bold` | | Disable bold text intensity | `false` |
+| `-v` | `--version` | Show program version and exit | |
 
-**Cyan rain with a custom "NEO" bookmark:**
-```bash
-rmatrix -b "NEO" -c cyan
-```
+### Color Palettes
+
+Rmatrix features 17 hand-crafted color palettes optimized for 256-color terminals:
+
+| Name | Description |
+| :--- | :--- |
+| `green` | Classic Matrix (Pure Green) |
+| `gold` | High-glow Saffron (Brilliant) |
+| `silver` | Metallic Grey (Reflective) |
+| `red` | Crimson Stream |
+| `blue` | Cyber Blue |
+| `cyan` | Electric Aqua |
+| `yellow` | Bright Amber |
+| `magenta` | Deep Purple |
+| `orange` | Sunset Saffron |
+| `violet` | Neon Lavender |
+| `pink` | Hot Pink |
+| `lavender`| Soft Purple |
+| `midnight`| Deep Navy |
+| `sunset` | Red-to-Orange Gradient |
+| `forest` | Deep Wood Greens |
+| `blood` | Dark Crimson Pulse |
+| `ocean` | Deep Sea Aqua |
 
 ## 🛠 Requirements
 
 - Python 3.6+
-- A terminal with `curses` support (standard on Linux/macOS)
-- Windows: Use Windows Terminal or PowerShell for the best experience.
+- Terminal with `curses` support (Linux/macOS)
+- Windows: Windows Terminal or PowerShell recommended.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE](LICENSE) for details.
 
 ---
-Built with ❤️ for the community by Nihal Sheikh.
+Built with ❤️ by Nihal Sheikh.

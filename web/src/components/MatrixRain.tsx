@@ -60,6 +60,7 @@ const MatrixRain: React.FC<MatrixRainProps> = ({
       ctx.fillRect(0, 0, canvas.width, canvas.height);
       ctx.font = `${fontSize}px monospace`;
       ctx.textAlign = 'center';
+      ctx.shadowBlur = 0; // Ensure shadow is off by default
 
       columns.forEach(col => {
         if (col.updateCounter % col.updateRate === 0) {
@@ -75,9 +76,12 @@ const MatrixRain: React.FC<MatrixRainProps> = ({
 
         col.updateCounter++;
 
-        col.chars.forEach((char: string, index: number) => {
+        // Render from back to front to minimize state changes
+        for (let index = col.chars.length - 1; index >= 0; index--) {
+          const char = col.chars[index];
           const y = (col.y - index) * fontSize;
-          if (y < -fontSize || y > canvas.height + fontSize) return;
+          
+          if (y < -fontSize || y > canvas.height + fontSize) continue;
 
           if (index === 0) {
             ctx.fillStyle = '#fff';
@@ -88,22 +92,17 @@ const MatrixRain: React.FC<MatrixRainProps> = ({
             ctx.fillText(char, col.x, y);
             ctx.shadowBlur = 0;
           } else {
-            const charOpacity = Math.pow(1 - (index / col.maxLength), 1.2);
-            // Handling oklch opacity for canvas
-            let fillColor = color;
-            if (color.startsWith('oklch')) {
-                fillColor = color.includes('/') 
-                    ? color.replace(/\/\s*[\d.]+\)/, `/ ${charOpacity})`)
-                    : color.replace(')', ` / ${charOpacity})`);
-            }
-            ctx.fillStyle = fillColor;
+            const charOpacity = 1 - (index / col.maxLength);
+            ctx.globalAlpha = charOpacity;
+            ctx.fillStyle = color;
             ctx.fillText(char, col.x, y);
+            ctx.globalAlpha = 1.0;
           }
-        });
+        }
 
         col.y += col.speed;
         if ((col.y - col.maxLength) * fontSize > canvas.height) {
-          col.y = Math.random() * -10;
+          col.y = 0;
         }
       });
       animationId = requestAnimationFrame(draw);

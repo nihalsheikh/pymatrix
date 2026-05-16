@@ -10,9 +10,11 @@ export const metadata: Metadata = {
   description: "The cinematic Matrix digital rain, recreated in pure Python.",
   icons: {
     icon: [
-      { url: "/dark-logo.png", media: "(prefers-color-scheme: dark)" },
-      { url: "/light-logo.png", media: "(prefers-color-scheme: light)" },
+      { url: "/dark-logo.png", sizes: "32x32", type: "image/png" },
+      { url: "/dark-logo.png", media: "(prefers-color-scheme: dark)", type: "image/png" },
+      { url: "/light-logo.png", media: "(prefers-color-scheme: light)", type: "image/png" },
     ],
+    apple: "/dark-logo.png",
   },
 };
 
@@ -27,7 +29,7 @@ export default function RootLayout({
         <nav className="fixed top-0 left-0 right-0 z-50 bg-bg/80 backdrop-blur-md border-b border-border h-20">
           <div className="container h-full flex items-center justify-between">
             <Link href="/" className="flex items-center gap-4 group">
-              <Image src="/dark-logo.png" alt="Rmatrix" width={48} height={48} className="w-12 h-12" draggable={false} />
+              <Image src="/dark-logo.png" alt="Rmatrix" width={56} height={56} className="w-14 h-14" draggable={false} />
               <span className="font-display text-4xl tracking-tighter text-fg opacity-90 group-hover:opacity-100 group-hover:text-accent transition-all">RMATRIX</span>
             </Link>
             

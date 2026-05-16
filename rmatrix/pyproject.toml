@@ -4,7 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rmatrix"
-version = "0.1.3"
+version = "0.1.6"
+
 authors = [
   { name="Nihal Sheikh", email="nihalsheikh585@gmail.com" },
 ]
