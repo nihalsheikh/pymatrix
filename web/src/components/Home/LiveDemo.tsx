@@ -14,7 +14,7 @@ const LiveDemo = () => {
   return (
     <section className="py-40 bg-surface border-y border-border">
       <div className="container">
-        <h2 className="glow-text text-5xl font-display mb-20 text-left">Live Interface</h2>
+        <h2 className="glow-text text-5xl font-display mb-20 text-left uppercase tracking-tighter">Live Interface</h2>
         <div className="grid grid-cols-1 lg:grid-cols-[380px_1fr] gap-16 h-auto lg:h-[550px]">
           <div className="flex flex-col gap-4 overflow-y-auto pr-6 bg-bg p-8 border border-border rounded-xl">
             {DEMO_PRESETS.map((preset, i) => (
@@ -40,7 +40,7 @@ const LiveDemo = () => {
               <div className="w-3.5 h-3.5 rounded-full bg-[#ff5f56]" />
               <div className="w-3.5 h-3.5 rounded-full bg-[#ffbd2e]" />
               <div className="w-3.5 h-3.5 rounded-full bg-[#27c93f]" />
-              <div className="flex-1 text-center font-mono text-xs text-muted tracking-widest font-bold">nihal@pymatrix: ~</div>
+              <div className="flex-1 text-center font-mono text-xs text-muted tracking-widest font-bold">nihal@rmatrix: ~</div>
             </div>
             <div className="flex-1 relative">
               <MatrixRain 

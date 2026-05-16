@@ -6,7 +6,7 @@ import MatrixRain from "@/components/MatrixRain";
 import { FaGithub } from "react-icons/fa6";
 
 export const metadata: Metadata = {
-  title: "Pymatrix — Terminal Matrix Rain",
+  title: "Rmatrix — Terminal Matrix Rain",
   description: "The cinematic Matrix digital rain, recreated in pure Python.",
 };
 
@@ -21,8 +21,8 @@ export default function RootLayout({
         <nav className="fixed top-0 left-0 right-0 z-50 bg-bg/80 backdrop-blur-md border-b border-border h-20">
           <div className="container h-full flex items-center justify-between">
             <Link href="/" className="flex items-center gap-4 group">
-              <Image src="/logo.png" alt="Pymatrix" width={32} height={32} className="w-8 h-8" draggable={false} />
-              <span className="font-display text-2xl tracking-tighter text-fg opacity-90 group-hover:opacity-100 group-hover:text-accent transition-all">PYMATRIX</span>
+              <Image src="/logo.png" alt="Rmatrix" width={32} height={32} className="w-8 h-8" draggable={false} />
+              <span className="font-display text-4xl tracking-tighter text-fg opacity-90 group-hover:opacity-100 group-hover:text-accent transition-all">RMATRIX</span>
             </Link>
             
             <div className="hidden md:flex items-center gap-8">
@@ -34,7 +34,7 @@ export default function RootLayout({
 
             <div className="flex items-center">
               <Link 
-                href="https://github.com/nihalsheikh/pymatrix" 
+                href="https://github.com/nihalsheikh/rmatrix" 
                 target="_blank"
                 className="relative overflow-hidden flex items-center gap-2 px-6 py-2.5 bg-surface border border-border rounded-lg hover:border-accent hover:text-accent transition-all text-sm font-bold group"
               >
@@ -56,7 +56,7 @@ export default function RootLayout({
         <footer className="py-12 border-t border-border mt-20">
           <div className="container text-center">
             <p className="font-mono text-xs text-muted tracking-widest uppercase font-bold">
-              © 2026 PYMATRIX // LICENSED UNDER MIT // BY NIHAL SHEIKH
+              © 2026 RMATRIX // LICENSED UNDER MIT // BY NIHAL SHEIKH
             </p>
           </div>
         </footer>

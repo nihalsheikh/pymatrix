@@ -11,11 +11,11 @@ const CTA = () => {
       </p>
       
       <div className="mb-20">
-        <CommandBlock command="pip install pymatrix" className="inline-block" showBorderBeam />
+        <CommandBlock command="pip install rmatrix" className="inline-block" showBorderBeam />
       </div>
 
       <div className="flex flex-wrap gap-8 justify-center">
-        <Link href="https://github.com/nihalsheikh/pymatrix" target="_blank" className="relative overflow-hidden px-10 py-5 bg-surface text-fg border border-border rounded-lg font-display text-base uppercase tracking-widest hover:border-accent transition-all transform hover:-translate-y-1 group">
+        <Link href="https://github.com/nihalsheikh/rmatrix" target="_blank" className="relative overflow-hidden px-10 py-5 bg-surface text-fg border border-border rounded-lg font-display text-base uppercase tracking-widest hover:border-accent transition-all transform hover:-translate-y-1 group">
            <div className="absolute inset-0 z-0 opacity-20 group-hover:opacity-40 transition-opacity">
               <MatrixRain fontSize={10} speed={0.4} opacity={0.2} glow={false} />
               <div className="absolute inset-0 bg-bg/40" />

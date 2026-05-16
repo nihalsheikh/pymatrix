@@ -7,13 +7,13 @@ const Hero = () => {
     <header className="relative min-h-[90vh] flex flex-col justify-center items-center text-center overflow-hidden border-b border-border px-4">
       <MatrixRain speed={0.7} opacity={0.7} />
       <div className="relative z-10 max-w-4xl p-12 rounded-full bg-[radial-gradient(circle,rgba(12,14,12,0.9)_0%,rgba(12,14,12,0)_80%)]">
-        <h1 className="font-display text-[8rem] md:text-[12rem] leading-none text-fg mb-4 brightness-0 invert tracking-tighter drop-shadow-[0_0_30px_rgba(255,255,255,0.2)]">PYMATRIX</h1>
+        <h1 className="font-display text-[8rem] md:text-[12rem] leading-none text-fg mb-4 brightness-0 invert tracking-tighter drop-shadow-[0_0_30px_rgba(255,255,255,0.2)]">RMATRIX</h1>
         <p className="text-xl md:text-2xl text-muted mb-12 max-w-2xl mx-auto font-medium">
           The cinematic Matrix digital rain, recreated in pure Python. High-fidelity, highly customizable, zero dependencies.
         </p>
         
         <div className="mb-14">
-          <CommandBlock command="pip install pymatrix" className="inline-block" showBorderBeam />
+          <CommandBlock command="pip install rmatrix" className="inline-block" showBorderBeam />
         </div>
 
         <div className="flex flex-wrap gap-8 justify-center">

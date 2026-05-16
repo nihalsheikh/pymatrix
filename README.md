@@ -1,81 +1,73 @@
-# PyMatrix - Personal Digital Rain Animation
+# Rmatrix - Personal Digital Rain Animation
 
-[![PyPI version](https://img.shields.io/pypi/v/pymatrix.svg)](https://pypi.org/project/pymatrix/)
+[![PyPI version](https://img.shields.io/pypi/v/rmatrix.svg)](https://pypi.org/project/rmatrix/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![PyMatrix Banner](assets/pymatrix%20banner.png)
+![Rmatrix Banner](assets/banner.png)
 
-PyMatrix is a fun and creative digital rain animation for your terminal, inspired by the iconic visuals of The Matrix. It features 3D parallax depth, hand-calibrated 256-color palettes, and a customizable bookmark overlay.
+Rmatrix is a fun and creative digital rain animation for your terminal, inspired by the iconic visuals of The Matrix. It features 3D parallax depth, hand-calibrated 256-color palettes, and a customizable bookmark overlay. Built for the casual aesthetic, it's dependency-free and runs on anything with Python 3.6+.
 
----
+## 🎬 Live Demo
 
-## 📑 Index
-1. [Key Features](#-key-features)
-2. [Installation](#-installation)
-3. [Usage](#-usage)
-   - [Basic Commands](#basic-commands)
-   - [Persistent Defaults](#persistent-defaults)
-4. [Showcase](#-showcase)
-5. [License](#-license)
+Check out the interactive high-fidelity website at [rmatrix.vercel.app](https://rmatrix.vercel.app).
 
----
+## ✨ Features
 
-## 🚀 Key Features
+- **Pure Python:** No heavy dependencies, no bloat.
+- **Cinematic Visuals:** High-fidelity animation optimized for the terminal.
+- **Extreme Customization:** Over 20+ flags to tune speed, density, colors, and mutation rates.
+- **Color Palettes:** 10+ hand-crafted color schemes (Classic Green, Blood Red, Ocean Blue, Sunset, etc.).
+- **Zero Data:** Respects your privacy. No tracking, no telemetry.
 
-- **3D Parallax Depth:** Simulated layers (Background, Mid, Foreground) for a true tunnel effect.
-- **Precision Colors:** 20+ calibrated xterm-256 palettes that work consistently across all terminals.
-- **Cinematic Gradients:** 10-level transitions for ultra-smooth comet tails.
-- **Persistent Preferences:** Save your favorite settings as defaults.
-- **Bookmark Overlay:** Display a central glowing message in your rain.
+## 🚀 Installation
 
----
-
-## 📦 Installation
-
-To install PyMatrix officially from PyPI:
+To install Rmatrix officially from PyPI:
 
 ```bash
-pip install pymatrix
+pip install rmatrix
 ```
 
-*Note: Windows users might need `pip install windows-curses`.*
+Or run it directly without installing:
 
----
+```bash
+python3 -m rmatrix.main
+```
 
 ## 🎮 Usage
 
-### Basic Commands
-```bash
-# Start default green rain
-pymatrix
+Simply run:
 
-# High-speed red binary rain
-pym -c red -ch binary -s 2.0
+```bash
+rmatrix
 ```
 
-### Persistent Defaults
-Save your current configuration as the default for future runs:
-```bash
-pymatrix -c gold -ch digits -l long -df
-```
-Next time you run `pym` or `pymatrix`, it will use these settings!
+Or use the shorter alias:
 
-### Bookmark UI
-Display a centrally located glowing string (with spacing for better look):
 ```bash
-pymatrix -b "NEO" -c cyan
+rmx
 ```
 
+### Pro Examples:
+
+**High-speed Gold rain with long trails:**
+```bash
+rmatrix -c gold -ch digits -l long -df
+```
+
+**Cyan rain with a custom "NEO" bookmark:**
+```bash
+rmatrix -b "NEO" -c cyan
+```
+
+## 🛠 Requirements
+
+- Python 3.6+
+- A terminal with `curses` support (standard on Linux/macOS)
+- Windows: Use Windows Terminal or PowerShell for the best experience.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ---
-
-## 📽️ Showcase
-Check out our [Showcase Page](https://pymatrix.vercel.app/showcase) or our [SHOWCASE.md](SHOWCASE.md) on GitHub for high-resolution GIFs.
-
----
-
-## 📜 License
-Licensed under the **MIT License**.
-
----
-
-*Matrix is a trademark of Warner Bros. Entertainment. This project is a personal fan creation.*
+Built with ❤️ for the community by Nihal Sheikh.
