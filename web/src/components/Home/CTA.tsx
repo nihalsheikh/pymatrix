@@ -10,8 +10,10 @@ const CTA = () => {
         Join the ranks of developers ricing their systems with the most customizable Matrix animation available.
       </p>
       
-      <div className="mb-20">
-        <CommandBlock command="pip install rmatrix" className="inline-block" showBorderBeam />
+      <div className="mb-20 space-y-4">
+        <span className="block text-sm font-mono text-muted uppercase tracking-widest font-bold">Recommended Installation</span>
+        <CommandBlock command="pipx install rmatrix" className="inline-block" showBorderBeam />
+        <p className="text-lg text-muted font-medium italic">Install globally to run `rmatrix` or `rmx` from any terminal window.</p>
       </div>
 
       <div className="flex flex-wrap gap-8 justify-center">

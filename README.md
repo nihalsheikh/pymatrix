@@ -6,7 +6,7 @@
 
 ![Rmatrix Banner](https://raw.githubusercontent.com/nihalsheikh/rmatrix/main/assets/banner.png)
 
-Rmatrix is a high-fidelity digital rain animation for your terminal, inspired by the iconic visuals of *The Matrix*. Featuring 3D parallax depth, hand-calibrated 256-color palettes, and zero dependencies.
+Rmatrix is a high-fidelity digital rain animation for your terminal, inspired by the iconic visuals of _The Matrix_. Featuring 3D parallax depth, hand-calibrated 256-color palettes, and zero dependencies.
 
 ## 🎬 Live Demo
 
@@ -14,13 +14,14 @@ Experience the high-fidelity web version at [rmatrix.netlify.app](https://rmatri
 
 ## 🚀 Installation
 
-### For Global Use (Recommended)
-To run Rmatrix from anywhere without manually activating a virtual environment, use **pipx**:
+For global use (recommended):
+
 ```bash
-pipx install rmatrix
+pipx install rmatrix       # run from anywhere without a virtual env
 ```
 
-### For Development / Local Use
+For local or virtual environments:
+
 ```bash
 pip install rmatrix
 ```
@@ -28,56 +29,58 @@ pip install rmatrix
 ## 🎮 Usage
 
 Simply run:
+
 ```bash
 rmatrix
 ```
 
 Or use the shorter alias:
+
 ```bash
 rmx
 ```
 
 ### Command Line Flags
 
-| Short | Long | Description | Default |
-| :--- | :--- | :--- | :--- |
-| `-c` | `--color` | Rain color palette (see table below) | `green` |
-| `-s` | `--speed` | Animation speed multiplier (0.1 - 5.0) | `1.0` |
-| `-d` | `--density` | Stream density (`light`, `medium`, `heavy`) | `medium` |
-| `-ch` | `--chars` | Character set (`matrix`, `katakana`, `ascii`, `digits`, `symbols`, `binary`) | `matrix` |
-| `-l` | `--length` | Trail length (`short`, `medium`, `long`) | `medium` |
-| `-f` | `--fps` | Target frames per second (5 - 60) | `30` |
-| `-b` | `--bookmark` | Central glowing text overlay | `""` |
-| `-mr` | `--mutation-rate`| Frequency of glyph scrambling (0.0 - 1.0) | `0.05` |
-| `-df` | `--default` | Save current flags as factory defaults | `false` |
-| `--reset` | | Reset all settings to factory defaults | `false` |
-| `--no-256` | | Force 8-color mode (legacy terminals) | `false` |
-| `--no-bold` | | Disable bold text intensity | `false` |
-| `-v` | `--version` | Show program version and exit | |
+| Short       | Long              | Description                                                                  | Default  |
+| :---------- | :---------------- | :--------------------------------------------------------------------------- | :------- |
+| `-c`        | `--color`         | Rain color palette (see table below)                                         | `green`  |
+| `-s`        | `--speed`         | Animation speed multiplier (0.1 - 5.0)                                       | `1.0`    |
+| `-d`        | `--density`       | Stream density (`light`, `medium`, `heavy`)                                  | `medium` |
+| `-ch`       | `--chars`         | Character set (`matrix`, `katakana`, `ascii`, `digits`, `symbols`, `binary`) | `matrix` |
+| `-l`        | `--length`        | Trail length (`short`, `medium`, `long`)                                     | `medium` |
+| `-f`        | `--fps`           | Target frames per second (5 - 60)                                            | `30`     |
+| `-b`        | `--bookmark`      | Central glowing text overlay                                                 | `""`     |
+| `-mr`       | `--mutation-rate` | Frequency of glyph scrambling (0.0 - 1.0)                                    | `0.05`   |
+| `-df`       | `--default`       | Save current flags as factory defaults                                       | `false`  |
+| `--reset`   |                   | Reset all settings to factory defaults                                       | `false`  |
+| `--no-256`  |                   | Force 8-color mode (legacy terminals)                                        | `false`  |
+| `--no-bold` |                   | Disable bold text intensity                                                  | `false`  |
+| `-v`        | `--version`       | Show program version and exit                                                |          |
 
 ### Color Palettes
 
 Rmatrix features 17 hand-crafted color palettes optimized for 256-color terminals:
 
-| Name | Description |
-| :--- | :--- |
-| `green` | Classic Matrix (Pure Green) |
-| `gold` | High-glow Saffron (Brilliant) |
-| `silver` | Metallic Grey (Reflective) |
-| `red` | Crimson Stream |
-| `blue` | Cyber Blue |
-| `cyan` | Electric Aqua |
-| `yellow` | Bright Amber |
-| `magenta` | Deep Purple |
-| `orange` | Sunset Saffron |
-| `violet` | Neon Lavender |
-| `pink` | Hot Pink |
-| `lavender`| Soft Purple |
-| `midnight`| Deep Navy |
-| `sunset` | Red-to-Orange Gradient |
-| `forest` | Deep Wood Greens |
-| `blood` | Dark Crimson Pulse |
-| `ocean` | Deep Sea Aqua |
+| Name       | Description                   |
+| :--------- | :---------------------------- |
+| `green`    | Classic Matrix (Pure Green)   |
+| `gold`     | High-glow Saffron (Brilliant) |
+| `silver`   | Metallic Grey (Reflective)    |
+| `red`      | Crimson Stream                |
+| `blue`     | Cyber Blue                    |
+| `cyan`     | Electric Aqua                 |
+| `yellow`   | Bright Amber                  |
+| `magenta`  | Deep Purple                   |
+| `orange`   | Sunset Saffron                |
+| `violet`   | Neon Lavender                 |
+| `pink`     | Hot Pink                      |
+| `lavender` | Soft Purple                   |
+| `midnight` | Deep Navy                     |
+| `sunset`   | Red-to-Orange Gradient        |
+| `forest`   | Deep Wood Greens              |
+| `blood`    | Dark Crimson Pulse            |
+| `ocean`    | Deep Sea Aqua                 |
 
 ## 🛠 Requirements
 
@@ -85,9 +88,8 @@ Rmatrix features 17 hand-crafted color palettes optimized for 256-color terminal
 - Terminal with `curses` support (Linux/macOS)
 - Windows: Windows Terminal or PowerShell recommended.
 
+---
+
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) for details.
-
----
-Built with ❤️ by Nihal Sheikh.
