@@ -7,14 +7,42 @@ import { FaGithub } from "react-icons/fa6";
 
 export const metadata: Metadata = {
   title: "Rmatrix — Terminal Matrix Rain",
-  description: "The cinematic Matrix digital rain, recreated in pure Python.",
+  description: "Experience the high-fidelity, cinematic Matrix digital rain animation, meticulously recreated in pure Python. Hyper-customizable, dependency-free, and cross-platform terminal art.",
+  metadataBase: new URL("https://rmatrix.netlify.app"),
   icons: {
     icon: [
-      { url: "/dark-logo.png", sizes: "32x32", type: "image/png" },
-      { url: "/dark-logo.png", media: "(prefers-color-scheme: dark)", type: "image/png" },
-      { url: "/light-logo.png", media: "(prefers-color-scheme: light)", type: "image/png" },
+      { url: "/dark-logo.png", sizes: "32x32" },
+      { url: "/dark-logo.png", media: "(prefers-color-scheme: dark)" },
+      { url: "/light-logo.png", media: "(prefers-color-scheme: light)" },
     ],
+    shortcut: "/dark-logo.png",
     apple: "/dark-logo.png",
+  },
+  openGraph: {
+    title: "Rmatrix — High-Fidelity Terminal Digital Rain",
+    description: "Experience the cinematic Matrix digital rain animation, recreated in pure Python. Fully customizable with 17+ color palettes, 3D parallax, and zero dependencies.",
+    url: "https://rmatrix.netlify.app",
+    siteName: "Rmatrix",
+    images: [
+      {
+        url: "/rmatrix-img-preview.png",
+        width: 1200,
+        height: 630,
+        alt: "Rmatrix — High-Fidelity Digital Rain",
+      }
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rmatrix — Terminal Matrix Rain",
+    description: "The cinematic Matrix digital rain animation, recreated in pure Python. Customizable, lightweight, and cinematic.",
+    images: ["/rmatrix-img-preview.png"],
+    creator: "@sshNihal",
+  },
+  other: {
+    "theme-color": "#0c0e0c",
   },
 };
 
