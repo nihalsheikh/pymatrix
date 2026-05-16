@@ -6,13 +6,13 @@ import MatrixRain from "@/components/MatrixRain";
 import { FaGithub } from "react-icons/fa6";
 
 export const metadata: Metadata = {
-  title: "Rmatrix — Terminal Matrix Rain",
-  description: "Experience the high-fidelity, cinematic Matrix digital rain animation, meticulously recreated in pure Python. Hyper-customizable, dependency-free, and cross-platform terminal art.",
+  title: "Rmatrix — High-Fidelity Matrix Digital Rain Terminal Effect",
+  description: "Cinematic Matrix digital rain animation, recreated in pure Python. Hyper-customizable, dependency-free, and cross-platform terminal art.",
   metadataBase: new URL("https://rmatrix.netlify.app"),
   // Standard icons are now handled automatically by icon.png and apple-icon.png in the app directory
   openGraph: {
-    title: "Rmatrix — High-Fidelity Terminal Digital Rain",
-    description: "Experience the cinematic Matrix digital rain animation, recreated in pure Python. Fully customizable with 17+ color palettes, 3D parallax, and zero dependencies.",
+    title: "Rmatrix — High-Fidelity Matrix Digital Rain Terminal Effect",
+    description: "Experience the cinematic Matrix digital rain animation, recreated in pure Python. Fully customizable with 17+ color palettes and zero dependencies.",
     url: "https://rmatrix.netlify.app",
     siteName: "Rmatrix",
     images: [
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rmatrix — Terminal Matrix Rain",
-    description: "The cinematic Matrix digital rain animation, recreated in pure Python. Customizable, lightweight, and cinematic.",
+    title: "Rmatrix — High-Fidelity Matrix Digital Rain Terminal Effect",
+    description: "Experience the cinematic Matrix digital rain animation, recreated in pure Python. Fully customizable with 17+ color palettes and zero dependencies.",
     images: ["/rmatrix-img-preview.png"],
     creator: "@sshNihal",
   },
