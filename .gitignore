@@ -21,3 +21,6 @@ venv
 
 dist
 build
+
+# Local Netlify folder
+.netlify
