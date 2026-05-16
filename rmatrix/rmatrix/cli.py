@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 from .colors import PALETTES_256
 
-VERSION = "0.1.0"
+VERSION = "0.1.3"
 CONFIG_DIR = Path.home() / ".config" / "rmatrix"
 CONFIG_FILE = CONFIG_DIR / "config.json"
 
@@ -24,10 +24,20 @@ def save_default_config(args, path=CONFIG_FILE):
     """Save current flags to a persistent JSON file."""
     os.makedirs(path.parent, exist_ok=True)
     config = vars(args)
+    # Remove flags that shouldn't be persisted
     config.pop('default', None)
+    config.pop('reset', None)
     with open(path, 'w') as f:
         json.dump(config, f)
     print(f"Preferences saved to {path}")
+
+def reset_config(path=CONFIG_FILE):
+    """Delete the persistent configuration file."""
+    if path.exists():
+        os.remove(path)
+        print(f"Configuration reset to factory defaults.")
+    else:
+        print("No custom configuration found.")
 
 def load_default_config(path=CONFIG_FILE):
     """Load flags from the persistent JSON file."""
@@ -56,6 +66,7 @@ def build_parser():
     parser.add_argument("-b", "--bookmark", type=str, default=defaults.get('bookmark', ""), help="Central glowing text")
     parser.add_argument("-mr", "--mutation-rate", type=float, default=defaults.get('mutation_rate', 0.05), help="Mutation frequency")
     parser.add_argument("-df", "--default", action="store_true", help="Save current flags as default")
+    parser.add_argument("--reset", action="store_true", help="Reset all settings to factory defaults")
     parser.add_argument("--no-256", action="store_true", default=defaults.get('no_256', False), help="Force 8-color mode")
     parser.add_argument("--no-bold", action="store_true", default=defaults.get('no_bold', False), help="Disable bold text")
     parser.add_argument("-v", "--version", action="version", version="rmatrix " + VERSION)

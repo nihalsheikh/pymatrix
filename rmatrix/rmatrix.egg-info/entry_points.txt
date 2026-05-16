@@ -1,0 +1,3 @@
+[console_scripts]
+rmatrix = rmatrix.main:main
+rmx = rmatrix.main:main

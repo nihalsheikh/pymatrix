@@ -1,3 +1,20 @@
+Metadata-Version: 2.4
+Name: rmatrix
+Version: 0.1.3
+Summary: A fun and creative Matrix digital rain animation for your terminal.
+Author-email: Nihal Sheikh <nihalsheikh585@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/nihalsheikh/rmatrix
+Project-URL: Bug Tracker, https://github.com/nihalsheikh/rmatrix/issues
+Project-URL: Official Website, https://rmatrix.vercel.app
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Topic :: Games/Entertainment
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: windows-curses; platform_system == "Windows"
+
 # Rmatrix - Personal Digital Rain Animation
 
 [![PyPI version](https://img.shields.io/pypi/v/rmatrix.svg)](https://pypi.org/project/rmatrix/)

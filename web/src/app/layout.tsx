@@ -8,6 +8,12 @@ import { FaGithub } from "react-icons/fa6";
 export const metadata: Metadata = {
   title: "Rmatrix — Terminal Matrix Rain",
   description: "The cinematic Matrix digital rain, recreated in pure Python.",
+  icons: {
+    icon: [
+      { url: "/dark-logo.png", media: "(prefers-color-scheme: dark)" },
+      { url: "/light-logo.png", media: "(prefers-color-scheme: light)" },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -21,7 +27,7 @@ export default function RootLayout({
         <nav className="fixed top-0 left-0 right-0 z-50 bg-bg/80 backdrop-blur-md border-b border-border h-20">
           <div className="container h-full flex items-center justify-between">
             <Link href="/" className="flex items-center gap-4 group">
-              <Image src="/logo.png" alt="Rmatrix" width={32} height={32} className="w-8 h-8" draggable={false} />
+              <Image src="/dark-logo.png" alt="Rmatrix" width={48} height={48} className="w-12 h-12" draggable={false} />
               <span className="font-display text-4xl tracking-tighter text-fg opacity-90 group-hover:opacity-100 group-hover:text-accent transition-all">RMATRIX</span>
             </Link>
             

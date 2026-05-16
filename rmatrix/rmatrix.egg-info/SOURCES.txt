@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.py
+rmatrix/__init__.py
+rmatrix/cli.py
+rmatrix/colors.py
+rmatrix/engine.py
+rmatrix/main.py
+rmatrix.egg-info/PKG-INFO
+rmatrix.egg-info/SOURCES.txt
+rmatrix.egg-info/dependency_links.txt
+rmatrix.egg-info/entry_points.txt
+rmatrix.egg-info/requires.txt
+rmatrix.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_colors.py
+tests/test_engine.py

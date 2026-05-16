@@ -1,6 +1,6 @@
 import curses
 import sys
-from .cli import build_parser, save_default_config, CHARSETS
+from .cli import build_parser, save_default_config, reset_config, CHARSETS
 from .colors import init_colors, get_attributes
 from .engine import run_engine
 
@@ -27,6 +27,10 @@ def wrapper(stdscr, args):
 def main():
     parser = build_parser()
     args = parser.parse_args()
+    
+    if args.reset:
+        reset_config()
+        return
     
     if args.default:
         save_default_config(args)
