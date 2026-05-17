@@ -17,7 +17,7 @@ Experience the high-fidelity web version at [rmatrix.netlify.app](https://rmatri
 For global use (recommended):
 
 ```bash
-pipx install rmatrix       # run from anywhere without a virtual env
+pipx install rmatrix       # run from anywhere without a python virtual env
 ```
 
 For local or virtual environments:
