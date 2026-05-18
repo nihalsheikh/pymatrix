@@ -62,25 +62,25 @@ rmx
 
 Rmatrix features 17 hand-crafted color palettes optimized for 256-color terminals:
 
-| Name       | Description                   |
-| :--------- | :---------------------------- |
-| `green`    | Classic Matrix (Pure Green)   |
-| `gold`     | High-glow Saffron (Brilliant) |
-| `silver`   | Metallic Grey (Reflective)    |
-| `red`      | Crimson Stream                |
-| `blue`     | Cyber Blue                    |
-| `cyan`     | Electric Aqua                 |
-| `yellow`   | Bright Amber                  |
-| `magenta`  | Deep Purple                   |
-| `orange`   | Sunset Saffron                |
-| `violet`   | Neon Lavender                 |
-| `pink`     | Hot Pink                      |
-| `lavender` | Soft Purple                   |
-| `midnight` | Deep Navy                     |
-| `sunset`   | Red-to-Orange Gradient        |
-| `forest`   | Deep Wood Greens              |
-| `blood`    | Dark Crimson Pulse            |
-| `ocean`    | Deep Sea Aqua                 |
+| Name       | Description            |
+| :--------- | :--------------------- |
+| `green`    | Classic Matrix         |
+| `gold`     | High-glow Saffron      |
+| `silver`   | Metallic Grey          |
+| `red`      | Crimson Stream         |
+| `blue`     | Cyber Blue             |
+| `cyan`     | Electric Aqua          |
+| `yellow`   | Bright Amber           |
+| `magenta`  | Deep Purple            |
+| `orange`   | Sunset Saffron         |
+| `violet`   | Neon Lavender          |
+| `pink`     | Hot Pink               |
+| `lavender` | Soft Purple            |
+| `midnight` | Deep Navy              |
+| `sunset`   | Red-to-Orange Gradient |
+| `forest`   | Deep Wood Greens       |
+| `blood`    | Dark Crimson Pulse     |
+| `ocean`    | Deep Sea Aqua          |
 
 ## 🛠 Requirements
 
